@@ -22,7 +22,7 @@ def get_filters():
             if city in ('Chicago','New York','Washington'):
                 break
             else:
-                print ('\nEnter a valid city!!!')
+                print ('\nWrong input. Enter a valid city!!!')
                 return
 
     response = input('\nWould you like filter data by month, day, both or not at all? Type "none" for no time filter. :')
