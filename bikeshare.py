@@ -22,7 +22,7 @@ def get_filters():
             if city in ('Chicago','New York','Washington'):
                 break
             else:
-                print ('\nEnter a valid city!!!')
+                print ('\nWrong input. Enter a valid city!!!')
                 return
 
     response = input('\nWould you like filter data by month, day, both or not at all? Type "none" for no time filter. :')
@@ -34,7 +34,7 @@ def get_filters():
                 if month in ('January','February','March','April','May','June','Both'):
                     break
                 else:
-                    print ('\n Enter a valid month!!!')
+                    print ('\nWrong Month. Enter a valid month!!!')
                     return
             # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
             key = input ('\nWhich day? Please type your response as an integer (e.g., 1=Sunday)').title()
