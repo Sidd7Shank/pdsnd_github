@@ -18,7 +18,11 @@ A text editor, like Sublime or Atom.
 A terminal application (Terminal on Mac and Linux or Cygwin on Windows).
 
 ### Files used
-Include the files used
+In this project, you will use data provided by "Motivate", a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. You will compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
+Data files:
+1. Chicago.csv
+2. New_york_city.csv
+3. Washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
