@@ -228,7 +228,7 @@ def display_data(df):
     st=0
     choice = input('\n Do you want to see raw data? : (Y/N)').title()
     while choice == 'Y':
-        df_slice = df.iloc[st:st+5]
+        df_slice = df.iloc[st:st+100]
         print(df_slice)
         st+=5
         choice = input('\n Do you want to see raw data? : (Y/N)').title()
